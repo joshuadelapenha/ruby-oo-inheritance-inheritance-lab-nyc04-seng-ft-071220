@@ -4,6 +4,9 @@ class Student < User
 
   def initialize
     @knowledge = []
-    
+  end
+  
+  def learn(string_arg)
+    @knowledge << string_arg
   end
 end
